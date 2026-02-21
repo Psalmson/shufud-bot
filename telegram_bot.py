@@ -184,20 +184,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
----
-
-Now create these 3 files in your GitHub repo:
-
-**`telegram_bot.py`** — paste the code above
-
-**`requirements.txt`**:
-```
-python-telegram-bot==20.7
-anthropic
-```
-
-**`Procfile`**:
-```
-worker: python telegram_bot.py
